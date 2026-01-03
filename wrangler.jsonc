@@ -1,5 +1,5 @@
 {
-  "name": "astro-decap-cms-strater",
+  "name": "astro-decap-cms-starter",
   "compatibility_date": "2026-01-03",
   "assets": {
     "directory": "./dist"
