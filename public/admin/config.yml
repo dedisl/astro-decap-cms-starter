@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: dedis/astro-decap-cms-strater # Ganti dengan repo GitHub Anda
+  repo: dedisl/astro-decap-cms-strater # Ganti dengan repo GitHub Anda
   branch: main # Atau master
 
 media_folder: "public/images/uploads" # Tempat menyimpan gambar
