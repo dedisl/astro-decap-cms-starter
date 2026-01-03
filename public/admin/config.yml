@@ -1,19 +1,6 @@
 backend:
   name: github
-  repo: dedisl/astro-decap-cms-strater # Ganti dengan repo GitHub Anda
-  branch: main # Atau master
-
-media_folder: "public/images/uploads" # Tempat menyimpan gambar
-public_folder: "/images/uploads"
-
-collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/content/blog" # Sesuaikan dengan folder konten Astro Anda
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  repo: username/repo-anda
+  branch: main
+  base_url: https://decap-auth.username.workers.dev # URL Worker Anda
+  auth_endpoint: /auth # Path di Worker tadi
