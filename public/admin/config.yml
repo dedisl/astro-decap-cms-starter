@@ -2,5 +2,5 @@ backend:
   name: github
   repo: username/repo-anda
   branch: main
-  base_url: https://decap-auth.dedislesmana1991.workers.dev # URL Worker Anda
+  base_url: https://astro-decap-cms-strater.dedislesmana1991.workers.dev # URL Worker Anda
   auth_endpoint: /auth # Path di Worker tadi
